@@ -1,0 +1,58 @@
+.XO_field{
+	overflow:hidden;
+}
+
+.XO_row{
+	clear:both;
+}
+
+.XO_cell{
+	float:left;
+	border: 2px solid #ccc;
+	width: 50px;
+	height:50px;
+    position:relative;
+    text-align:center;
+}
+
+.XO_cell a{
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0
+}
+
+.XO_cell a:hover{
+	background: #aaa;
+}
+
+.XO_cell.winner{
+	background:#f00;
+}
+
+.icon{
+	display:inline-block;
+}
+
+.player1:after{
+	content: "X";
+	font-size: 42px;
+}
+
+.player2:after{
+	content: "O";
+	font-size: 42px;
+	
+}
+
+.icon_player1:after{
+	content: "X";
+	font-size: 18px;
+}
+
+.icon_player2:after{
+	content: "O";
+	font-size: 18px;
+	
+}
