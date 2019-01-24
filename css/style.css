@@ -1,12 +1,12 @@
-.XO_field{
+.TicTacToe_field{
 	overflow:hidden;
 }
 
-.XO_row{
+.TicTacToe_row{
 	clear:both;
 }
 
-.XO_cell{
+.TicTacToe_cell{
 	float:left;
 	border: 2px solid #ccc;
 	width: 50px;
@@ -15,7 +15,7 @@
     text-align:center;
 }
 
-.XO_cell a{
+.TicTacToe_cell a{
 	position:absolute;
 	left:0;
 	top:0;
@@ -23,11 +23,11 @@
 	bottom:0
 }
 
-.XO_cell a:hover{
+.TicTacToe_cell a:hover{
 	background: #aaa;
 }
 
-.XO_cell.winner{
+.TicTacToe_cell.winner{
 	background:#f00;
 }
 

@@ -1,12 +1,12 @@
 <?php 
 	if ($game->getCurrentPlayer()) { ?>
-	   Ход делает игрок
+	   Move
 	   <div class="icon icon_player<?php echo $game->getCurrentPlayer(); ?>"></div>
 <?php
  	} 
    	
 	if ($game->getWinner()) { ?>
-		Победил игрок  
+		Winner:
 	    <div class="icon icon_player<?php echo $game->getWinner(); ?>"></div> !
 <?php
 	}

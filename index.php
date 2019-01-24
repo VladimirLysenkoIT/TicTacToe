@@ -1,5 +1,5 @@
 <?php
-	require_once("classes/XO.php");
+	require_once("classes/TicTacToe.php");
 	require_once("functions/sessions.php");
 ?>
 <!doctype html>
@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
   	<meta http-equiv="Content-Type" content="text/html;">
   	<link href="css/style.css" rel="stylesheet">
-  	<title>Крестики нолики</title>
+  	<title>Tic Tac Toe</title>
 </head>
 <body>
 	
